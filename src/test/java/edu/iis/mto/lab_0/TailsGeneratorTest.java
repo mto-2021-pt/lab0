@@ -36,6 +36,7 @@ class TailsGeneratorTest {
 
     @Test
     void tailsShouldReturnStringMinusTwoFirstSignsAsThirdElement() {
+
         assertThat(tails.get(2), equalTo(HELLO.substring(2)));
     }
 
