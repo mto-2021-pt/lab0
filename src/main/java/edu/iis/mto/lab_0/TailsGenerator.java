@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TailsGenerator {
-
     public List<String> tails(String value) {
         ArrayList<String> list = new ArrayList<>(value.length());
         for(int i=0; i<=value.length(); i++){
@@ -12,5 +11,4 @@ public class TailsGenerator {
         }
         return list;
     }
-
 }
